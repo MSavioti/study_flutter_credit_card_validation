@@ -1,0 +1,22 @@
+lates
+*.sln.tmpl        text eol=crlf
+*.props.tmpl      text eol=crlf
+*.vcxproj.tmpl    text eol=crlf
+
+# Never perform LF normalization
+*.ico             binary
+*.jar             binary
+*.png             binary
+*.zip             binary
+*.ttf             binary
+*.otf             binary
+
+*.cs text diff=dart
+
+android/* linguist-detectable=false
+ios/* linguist-detectable=false
+web/* linguist-detectable=false
+*.swift linguist-detectable=false
+*.kt linguist-detectable=false
+*.js linguist-detectable=false
+*.h linguist-detectable=false
